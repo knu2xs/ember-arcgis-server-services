@@ -20,7 +20,9 @@
   },
   "author": "Dave Bouwman <dbouwman@esri.com>",
   "license": "Apache-2.0",
-  "devDependencies": {
+  "dependencies": {
+    "ember-cli-babel": "^5.1.6",
+    "ember-network": "0.3.0",
     "broccoli-asset-rev": "^2.4.2",
     "ember-cli": "2.8.0",
     "ember-cli-active-link-wrapper": "0.3.2",
@@ -55,10 +57,6 @@
   "keywords": [
     "ember-addon"
   ],
-  "dependencies": {
-    "ember-cli-babel": "^5.1.6",
-    "ember-network": "0.3.0"
-  },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
